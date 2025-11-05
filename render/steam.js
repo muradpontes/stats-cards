@@ -32,11 +32,11 @@ function renderSteamCard(data, lang) {
     default:
       items = [
         constructItem(82, 44, `${name}&apos;s Steam Stats`, 'title', 18),
-        constructItem(55, 83, `Recent Played Game`, 'label', 13.5),
+        constructItem(55, 83, `jogado recentemente`, 'label', 13.5),
         constructItem(55, 111, `${recent_played_game}`, 'value', 25),
-        constructItem(55, 139, `Last logoff`, 'label', 12),
-        constructItem(55, 169, `Frinds`, 'label', 12),
-        constructItem(235, 169, `Game count`, 'label', 12),
+        constructItem(55, 139, `visto por último`, 'label', 12),
+        constructItem(55, 169, `amigos`, 'label', 12),
+        constructItem(235, 169, `jogos`, 'label', 12),
         constructItem(125, 139, `${last_logoff}`, 'value', 12),
         constructItem(94, 169, `${friends}`, 'value', 12),
         constructItem(308, 169, `${game_count}`, 'value', 12),
